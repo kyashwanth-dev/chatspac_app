@@ -11,7 +11,7 @@ import {
   Spacer
 } from "@chakra-ui/react";
 
-const socket = io("https://chatspac-app-backend.onrender.com/");
+const socket = io("https://chatspac-app-backend.onrender.com");
 
 const colors = ["blue", "green", "red", "purple", "orange", "teal", "pink", "yellow"];
 
