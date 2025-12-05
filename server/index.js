@@ -12,7 +12,7 @@ const server = http.createServer(app);
 
 const io = new Server(server, {
   cors: {
-    origin: ["http://localhost:5173", "https://chatclient-kh67.onrender.com","https://chatspac.netlify.app"],
+    origin: ["http://localhost:5173","https://solid-capybara-v67w46rpv4x7fxrrp-5173.app.github.dev"],
     methods: ["GET", "POST"]
   }
 });
